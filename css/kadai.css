@@ -1,0 +1,166 @@
+.start_back {
+    position: absolute;
+    width: 100%;
+
+}
+
+.start_back img {
+    width: 100%;
+    height: 600px;
+}
+
+#start_top {
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 15%;
+}
+
+#start_top img {
+    width: 50%;
+
+}
+
+
+
+
+#start_down {
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 60%;
+}
+
+/*#strat_title {
+    
+    visibility: hidden;
+}*/
+#start_down img {
+    width: 50%;
+
+
+
+}
+
+.start {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.start img {
+    width: 40%;
+    height: 40%;
+}
+
+.back1 {
+    z-index: 0;
+
+}
+
+.back2 {
+    z-index: 1;
+}
+
+.mori {
+    position: absolute;
+    width: 100%;
+}
+
+.mori img {
+    width: 100%;
+    height: 600px;
+}
+
+.sensi {
+    position: relative;
+}
+
+.players {
+    position: relative;
+}
+
+.p1 {
+    display: flex;
+    padding: 5% 0 5% 3.6%;
+
+}
+
+.roads {
+    font-size: 57px;
+
+    visibility: hidden;
+}
+
+.meichan img {
+    width: 50px;
+    height: 100px;
+}
+
+.totoro img {
+    width: 50px;
+    height: 100px;
+}
+
+.p2 {
+    display: flex;
+    padding: 3% 0 5% 3.6%;
+}
+
+#command {
+    position: absolute;
+}
+
+#p1saikoro {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #666;
+    font-size: 20px;
+
+}
+
+#p2saikoro {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #666;
+    font-size: 20px;
+
+}
+
+.saikoro {
+    display: flex;
+}
+
+.saikoro2 {
+    display: flex;
+}
+
+#result1 {
+    visibility: hidden;
+}
+
+#result2 {
+    visibility: hidden;
+}
+
+#win1 {
+    display: flex;
+}
+
+#win2 {
+    display: flex;
+}
+
+#kekka,
+#kekka2 {
+    font-size: 20px;
+}
+
+#goal1,
+#goal2 {
+    position: absolute;
+    left: 45%;
+    font-weight: bold;
+    visibility: hidden;
+}
