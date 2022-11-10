@@ -4,7 +4,7 @@
 
 ## DEMO
 
-  - https://kurokawa963.github.io/kurokawa_janken/
+  - https://kurokawa963.github.io/kurokawa_janken/kadaihairetsu.html
 
 ## 紹介と使い方
 
