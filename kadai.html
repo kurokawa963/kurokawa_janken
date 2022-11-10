@@ -134,7 +134,7 @@
         const max1 = 6;
 
 
-    
+
         const rannum10 = Math.floor(Math.random() * (max1 - min1 + 1)) + min1;
         const rannum20 = Math.floor(Math.random() * (max1 - min1 + 1)) + min1;
         const rannum30 = Math.floor(Math.random() * (max1 - min1 + 1)) + min1;
@@ -173,11 +173,12 @@
 
                 $('#kanta').get(0).play();
                 setTimeout(function () {
-                    $('#kanta').get(0).pause();
+
                     $('#start').hide();
                     $('#start_titles').hide();
                     $('#start_back').hide(); {
                         $("#play-button").get(0).play();
+                        $('#kanta').get(0).pause();
                     }
 
 
