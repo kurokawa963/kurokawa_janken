@@ -4,7 +4,7 @@
 
 ## DEMO
 
-  - https://kurokawa963.github.io/kurokawa_janken/hairetsu.html
+  - https://kurokawa963.github.io/kurokawa_janken/kadai.html
 
 ## 紹介と使い方
 
