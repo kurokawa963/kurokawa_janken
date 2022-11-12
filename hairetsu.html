@@ -18,46 +18,58 @@
 
 
         let clickCount0 = 0;
+
         let get = 0;
         let get2 = 0;
 
         $(document).on('click', '#start', function () {
 
-            clickCount0 += 1;
+
 
             const saikoro = [
                 1, 2, 3, 4, 5, 6
             ]
-
-
-            let get = saikoro[Math.floor(Math.random() * saikoro.length)];
-            
             const saikoro2 = [1, 2, 3, 4, 5, 6]
 
-            let get2 = saikoro2[Math.floor(Math.random() * saikoro2.length)];
+            clickCount0 += 1;
+            const modoru = [1, 2, 3]
+            const rannum1 = modoru[Math.floor(Math.random() * modoru.length)];
+            const roads = saikoro[Math.floor(Math.random() * saikoro.length)];
 
 
+            if (clickCount0 % 2 === 1) {
+                console.log(rannum1)
+                if (rannum1 === 1 || rannum1 === 2) {
+                    get += roads
 
-            for (let i = 0; i < 20; i++) { 
-                if (clickCount0 % 2 === 1) {
-                   
-                    console.log(get);
                     $('#p1').text('●'.repeat(get))
-                
                 }
-
-                if (clickCount0 % 2 === 0) {
-                  
-                    console.log(get2);
-                    $('#p2').text('●'.repeat(get2))
-                    if (get2 < 20) {
-                        $('#p2').text('●'.repeat(get2))
-                    }
-                
+                else if (clickCount0 >= 3) {
+                    get -= roads
+                    $('#p1').text('●'.repeat(get))
+                }
             }
 
 
-        }});
+
+            if (clickCount0 % 2 === 0) {
+                console.log(rannum1)
+                if (rannum1 === 1 || rannum1 === 2) {
+                    get2 += roads
+
+                    $('#p2').text('●'.repeat(get2))
+
+                }
+                else if (clickCount0 >= 4) {
+                    get2 -= roads
+                    $('#p2').text('●'.repeat(get2))
+                }
+
+            }
+
+
+        }
+        );
 
 
     </script>
